@@ -13,10 +13,10 @@
       "excerpt_en": "Handling the arrival and port discharge of 24 ISO standard containers carrying industrial equipment.",
       "description_ar": "أشرفت شركة أويا السبق على استلام ومناولة دفعة من الحاويات التجارية الواردة عبر الخطوط الملاحية الإقليمية، وتم التنسيق المباشر مع رصيف الحاويات وتفريغها ونقلها إلى مستودعات العميل المركزية بأعلى درجات الحرص والسلامة الميدانية دون أي تلفيات.",
       "description_en": "Oya Al Sabaq coordinated the receipt and portside discharge of 24 commercial cargo containers arrived via regional shipping lines. The cargo was safely marshaled, inspected, and hauled directly to client distribution sites with zero incident.",
-      "image": "/images/sea_freight_vessel_1793264761184.jpg",
+      "image": "./images/sea_freight_vessel_1793264761184.jpg",
       "gallery": [
-        "/images/sea_freight_vessel_1793264761184.jpg",
-        "/images/hero_shipping_port_1793264761301.jpg"
+        "./images/sea_freight_vessel_1793264761184.jpg",
+        "./images/hero_shipping_port_1793264761301.jpg"
       ],
       "status": "completed",
       "published": true
@@ -34,9 +34,9 @@
       "excerpt_en": "Deploying an overland convoy of 18 heavy-haul flatbed trailers delivering structural equipment for a key infrastructure development.",
       "description_ar": "تم تنفيذ مهمة النقل البري عبر أسطول الشاحنات التابع للشركة، مع وضع خطة مسار محكمة ومرافقة لوجستية لضمان سلامة الحمولات على الطريق، والتسليم في الموعد المحدد بدقة تامة.",
       "description_en": "Executed overland transport via company-managed heavy tractor trailers. A rigorous route and transit safety protocol ensured intact, on-time delivery across transit corridors.",
-      "image": "/images/land_freight_fleet_1793264763042.jpg",
+      "image": "./images/land_freight_fleet_1793264763042.jpg",
       "gallery": [
-        "/images/land_freight_fleet_1793264763042.jpg"
+        "./images/land_freight_fleet_1793264763042.jpg"
       ],
       "status": "completed",
       "published": true
@@ -54,9 +54,9 @@
       "excerpt_en": "Receipt, staging, and secured warehousing for 350 commercial pallets, including sorting and onward dispatch.",
       "description_ar": "وفرت الشركة حلول تخزين آمنة ومراقبة على مدار الساعة لدفعة كبيرة من البضائع الاستهلاكية، متضمنة عمليات الفرز والتسجيل الرقمي وإعداد شحنات التوزيع لأسواق التجزئة والجملة.",
       "description_en": "Provided 24/7 guarded warehousing and inventory staging for commercial FMCG pallets, encompassing barcode verification, pallet wrapping, and scheduled outbound distribution.",
-      "image": "/images/warehouse_logistics_hub_1793264762934.jpg",
+      "image": "./images/warehouse_logistics_hub_1793264762934.jpg",
       "gallery": [
-        "/images/warehouse_logistics_hub_1793264762934.jpg"
+        "./images/warehouse_logistics_hub_1793264762934.jpg"
       ],
       "status": "completed",
       "published": true

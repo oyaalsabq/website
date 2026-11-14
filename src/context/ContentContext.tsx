@@ -47,14 +47,17 @@ const defaultContent: SiteContent = {
 
 const ContentContext = createContext<ContentContextType | undefined>(undefined);
 
-const STORAGE_KEY_CONTENT = 'oya_al_sabaq_content_v9';
+const STORAGE_KEY_CONTENT = 'oya_al_sabaq_content_v10';
 const STORAGE_KEY_LANG = 'oya_al_sabaq_lang_v1';
 
-// Helper to normalize image paths so images always resolve on production / Netlify
+// Helper to normalize image paths so images always resolve on production / GitHub Pages / Netlify
 export const fixImagePath = (path: string | undefined): string => {
   if (!path) return '';
   if (path.startsWith('/src/assets/images/')) {
-    return path.replace('/src/assets/images/', '/images/');
+    return path.replace('/src/assets/images/', './images/');
+  }
+  if (path.startsWith('/images/')) {
+    return path.replace('/images/', './images/');
   }
   return path;
 };
@@ -78,8 +81,10 @@ export const ContentProvider: React.FC<{ children: React.ReactNode }> = ({ child
     try {
       const saved = localStorage.getItem(STORAGE_KEY_CONTENT);
       if (saved) {
-        // Deep sanitize / normalize any old /src/assets/ paths in cached storage
-        const rawJson = saved.replace(/\/src\/assets\/images\//g, '/images/');
+        // Deep sanitize / normalize any old /src/assets/ or root /images/ paths in cached storage
+        const rawJson = saved
+          .replace(/\/src\/assets\/images\//g, './images/')
+          .replace(/"\/images\//g, '"./images/');
         const parsed = JSON.parse(rawJson);
         return {
           settings: { ...defaultContent.settings, ...(parsed.settings || {}) },

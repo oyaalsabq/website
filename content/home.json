@@ -7,7 +7,7 @@
   "hero_cta_en": "Request Instant Quote",
   "hero_secondary_cta_ar": "استكشف خدماتنا",
   "hero_secondary_cta_en": "Explore Services",
-  "hero_image": "/images/hero_shipping_port_1793264761301.jpg",
+  "hero_image": "./images/hero_shipping_port_1793264761301.jpg",
   "show_hero_stats": true,
   "stats": [
     {

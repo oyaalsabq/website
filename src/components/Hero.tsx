@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
       {/* Background Photography with High Contrast Dark Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src={home.hero_image || '/images/hero_shipping_port_1793264761301.jpg'}
+          src={home.hero_image || './images/hero_shipping_port_1793264761301.jpg'}
           alt="International Commercial Shipping Port"
           className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
           referrerPolicy="no-referrer"

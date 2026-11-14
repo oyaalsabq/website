@@ -100,7 +100,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-xl overflow-hidden border border-slate-200 shadow-md">
               <img
-                src="/images/sea_freight_vessel_1793264761184.jpg"
+                src="./images/sea_freight_vessel_1793264761184.jpg"
                 alt="Oya Al Sabaq Marine Logistics"
                 className="w-full h-80 object-cover"
                 referrerPolicy="no-referrer"
