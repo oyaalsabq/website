@@ -1,0 +1,57 @@
+{
+  "branches": [
+    {
+      "id": "branch-tripoli-hq",
+      "name_ar": "المقر الرئيسي وإدارة العمليات - طرابلس",
+      "name_en": "Headquarters & Operations - Tripoli",
+      "city_ar": "طرابلس",
+      "city_en": "Tripoli",
+      "country_ar": "ليبيا",
+      "country_en": "Libya",
+      "address_ar": "عين زارة - مجمع زارة سنتر، الدور الأرضي، مكتب رقم 44، طرابلس",
+      "address_en": "Zara Center Complex, Ground Floor, Office No. 44, Ain Zara, Tripoli",
+      "phone": "+218 92 788 4774",
+      "whatsapp": "+218 91 502 2516",
+      "email": "oia_company@yahoo.com",
+      "po_box_ar": "ص.ب 81910 طرابلس",
+      "po_box_en": "P.O. Box 81910, Tripoli",
+      "map_url": "https://maps.app.goo.gl/jiFvBPdnigx3EvFH9",
+      "coordinates": {
+        "lat": 32.8024571,
+        "lng": 13.2828347
+      },
+      "active": true
+    },
+    {
+      "id": "branch-misrata-logistics",
+      "name_ar": "مكتب التنسيق اللوجستي ومتابعة الشحنات - مصراتة",
+      "name_en": "Logistics Coordination Office - Misrata",
+      "city_ar": "مصراتة",
+      "city_en": "Misrata",
+      "country_ar": "ليبيا",
+      "country_en": "Libya",
+      "address_ar": "طريق الميناء والمنطقة الحرة، مصراتة، ليبيا",
+      "address_en": "Port Highway & Free Zone Area, Misrata, Libya",
+      "phone": "+218 92 788 4774",
+      "whatsapp": "+218 91 502 2516",
+      "email": "oia_company@yahoo.com",
+      "map_url": "https://maps.google.com/?q=Misrata+Port+Libya",
+      "active": true
+    },
+    {
+      "id": "branch-benghazi-liaison",
+      "name_ar": "مكتب التنسيق والمتابعة - بنغازي",
+      "name_en": "Coordination Office - Benghazi",
+      "city_ar": "بنغازي",
+      "city_en": "Benghazi",
+      "country_ar": "ليبيا",
+      "country_en": "Libya",
+      "address_ar": "المنطقة التجارية ومحيط الميناء",
+      "address_en": "Commercial Port Area",
+      "phone": "+218 91 000 0000",
+      "email": "benghazi@oya-alsabaq.com",
+      "map_url": "https://maps.google.com/?q=Benghazi+Port+Libya",
+      "active": false
+    }
+  ]
+}
