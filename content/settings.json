@@ -1,0 +1,21 @@
+{
+  "company_name_ar": "شركة أويا السبق للشحن والنقل الدولي",
+  "company_name_en": "Oya Al Sabaq International Shipping & Transport",
+  "logo_image": "./assets/aistudio/oya_566b2fa6.svg",
+  "slogan_ar": "ريادة لوجستية موثوقة تربطك بالعالم",
+  "slogan_en": "Reliable Logistics Bridging You to the World",
+  "email": "oia_company@yahoo.com",
+  "po_box_ar": "ص.ب 81910 طرابلس",
+  "po_box_en": "P.O. Box 81910, Tripoli",
+  "phone_primary": "+218 92 788 4774",
+  "phone_secondary": "+218 91 502 2516",
+  "whatsapp_number": "+218915022516",
+  "headquarter_address_ar": "عين زارة - مجمع زارة سنتر، الدور الأرضي، مكتب رقم 44، طرابلس، ليبيا",
+  "headquarter_address_en": "Zara Center Complex, Ground Floor, Office No. 44, Ain Zara, Tripoli, Libya",
+  "google_maps_url": "https://maps.app.goo.gl/jiFvBPdnigx3EvFH9",
+  "social_links": {
+    "facebook": "https://facebook.com/oyaalsabaq",
+    "linkedin": "https://linkedin.com/company/oya-alsabaq",
+    "instagram": "https://instagram.com/oyaalsabaq"
+  }
+}
